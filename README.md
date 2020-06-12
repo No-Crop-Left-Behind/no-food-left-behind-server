@@ -9,7 +9,7 @@ and recipients in mind.
 
 If you have postgres installed and want to run it locally:
 #### To start localhost server:
-1. `git clone https://github.com/No-Crop-Left-Behind/no-food-left-behind-client.git`
+1. `git clone https://github.com/No-Crop-Left-Behind/no-food-left-behind-server.git`
 2. `cd no-food-left-behind-server`
 3. Go into the .env file and edit postgres settings to your own environment
 - ie: change `PGUSER: ''` to your postgres user role & password if you've set one
