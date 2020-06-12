@@ -6,17 +6,17 @@ produce it, including land, water, energy. This project is geared towards the do
 and recipients in mind.
 
 ## Interested in contributing?
+1. `git clone https://github.com/No-Crop-Left-Behind/no-food-left-behind-server.git`
+2. `cd no-food-left-behind-server`
 
 If you have postgres installed and want to run it locally:
 #### To start localhost server:
-1. `git clone https://github.com/No-Crop-Left-Behind/no-food-left-behind-server.git`
-2. `cd no-food-left-behind-server`
-3. Go into the .env file and edit postgres settings to your own environment
+1. Go into the .env file and edit postgres settings to your own environment
 - ie: change `PGUSER: ''` to your postgres user role & password if you've set one
 - (if password, see commented connection string in database/index.js and set up .env accordingly)
-4. Change into a directory you would like to save this project
-5. `npm install`
-6. `npm start`
+2. Change into a directory you would like to save this project
+3. `npm install`
+4. `npm start`
 
 #### To start set up local postgres database:
 1. `pg_ctl -D /usr/local/var/postgres start`
