@@ -1,21 +1,23 @@
-# no-food-left-behind-server
+# Welcome to No Food Left Behind
 
-### If you have postgres installed and want to run it locally:
+We are a group of individuals committed to helping people find the resources they need
+to learn about eliminating food waste. When we waste food, we waste the resources to 
+produce it, including land, water, energy. This project is geared towards the donors
+and recipients in mind.
 
-#### Go into the .env file and edit postgres settings to your own environment
+## Interested in contributing?
 
-##### -ie: change `PGUSER: ''` to your postgres user role & password if you've set one
+If you have postgres installed and want to run it locally:
+#### To start localhost server:
+1. `git clone https://github.com/No-Crop-Left-Behind/no-food-left-behind-client.git`
+2. `cd no-food-left-behind-server`
+3. Go into the .env file and edit postgres settings to your own environment
+- ie: change `PGUSER: ''` to your postgres user role & password if you've set one
+- (if password, see commented connection string in database/index.js and set up .env accordingly)
+4. Change into a directory you would like to save this project
+5. `npm install`
+6. `npm start`
 
-##### -(if password, see commented connection string in database/index.js and set up .env accordingly)
-
-#### Start localhost server
-
-##### -run `npm start` in the repo directory
-
-#### Start local postgres server
-
-##### - `pg_ctl -D /usr/local/var/postgres start`
-
-#### Run the database model
-
-##### -run `i\ database/models.sql` in the repo directory
+#### To start set up local postgres database:
+1. `pg_ctl -D /usr/local/var/postgres start`
+2. run `i\ database/models.sql` in the repo directory
